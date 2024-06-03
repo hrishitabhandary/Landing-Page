@@ -1,0 +1,58 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    background: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .cta-buttons .button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .features, .gallery, .testimonials, .pricing, .contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .features .feature, .pricing .pricing-plan, .testimonials .testimonial {
+    margin: 20px;
+  }
+  
+  .gallery .screenshots img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input, form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  @media (min-width: 768px) {
+    .features .feature, .pricing .pricing-plan, .testimonials .testimonial {
+      display: inline-block;
+      vertical-align: top;
+      width: 45%;
+      margin: 2.5%;
+    }
+  }
+  
